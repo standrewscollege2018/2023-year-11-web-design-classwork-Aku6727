@@ -1,11 +1,7 @@
-/*This is our styles sheet*/
-
-/*  the first rule in the stye sheet*/
 * {
     margin: 0px;
     padding: 0px;
 }
-
 body {
     background-color: rgb(18, 18, 43);
     font-family:body, Helvetica, sans-serif;
@@ -50,7 +46,16 @@ p {
     font-family: body;
     src: url(AppleGaramond.ttf);
 }
-.container{
+.country_container{
     display: grid;
-    grid-template-columns: 20% 80%;
+	grid-template-columns: 25% 25% 25% 25%;
+	
+}
+.card{
+    border: 1px solid rgb(255, 0, 255);
+	border-radius: 20px;
+	padding: 20px;
+}
+.card img{
+    max-width: 100%;
 }

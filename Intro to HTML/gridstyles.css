@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Container  {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.aboutus {
+    background-color: rgb(168, 8, 8);
+    padding: 23px;
+    margin-right: 10px;
+}
+
+.maincontent{
+    background-color: darkgray;
+    padding: 23px;
+    margin-left: 10px;
+}
+
+.extracontent{
+    background-color: lightsalmon;
+    padding: 23px;
+}
