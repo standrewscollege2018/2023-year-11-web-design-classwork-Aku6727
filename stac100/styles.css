@@ -1,0 +1,45 @@
+@font-face {
+    font-family:titles ;
+    src: url(Saudagar.ttf);
+}
+@font-face {
+    font-family: body;
+    src: url(AppleGaramond.ttf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.heading_banner img{
+    max-width: 100%;
+    height: auto;
+    
+}
+body{
+    background-color: #226096;
+    font-family: body, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.container{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    background-color: white;
+}
+.top_link_container{
+    margin-bottom: 1%;
+    margin-right: 35% ;
+    margin-left: 35%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.main_content_container{
+    display: grid;
+    grid-template-columns: 55% 44%;
+}
+.video_text img{
+    max-width: 100%;
+    height: auto;
+}
+
+
