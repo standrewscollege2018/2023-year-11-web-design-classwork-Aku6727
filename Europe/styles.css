@@ -33,7 +33,6 @@ a:hover{
 }
 p {
     margin-top: 2px;
-    margin-bottom: 2px;
     
 }
 @font-face {
@@ -81,7 +80,7 @@ p {
 }
 @media only screen and (max-width:800px) {
     .container{
-        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
     }
     .side_panel {
         border: 5px rgb(160, 178, 209) solid; 

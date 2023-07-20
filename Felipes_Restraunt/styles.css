@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family:titles ;
+    src: url(Saudagar.ttf);
+}
+/* General tags */
+body{
+    color: #47525E;
+}
+a{
+    color: #47525E;
+    text-decoration: none;
+}
+/* Make the flag */
+.flag{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.left{
+    background-color: #006846;
+    height: 100%;
+}
+.middle{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.right{
+    background-color: #7A0200;
+}
+
+/* Make the menu and home links */
+.links_menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 80px;
+}
+.left_link{
+    text-align: center;
+
+}
+.right_link{
+    text-align: center;
+}
+
+.logo img{
+    text-align: center;
+    max-height: 100%;
+    max-width: auto;
+}
+.logo{
+    max-height: 50px;
+    text-align: center;
+}
+.sideways_flag{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 10%;
+}
+.top_green{
+    background-color: #006846;
+    height: 10px;
+}
+.bottom_red{
+    background-color: #7A0200;
+    height: 10px;
+    margin: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Making the main content and images */
+
+.titles{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.images img {
+    min-height: 100%;
+    min-width: auto;
+    max-width: 100%;
+    max-height: auto;
+}
+
+@media only screen and (max-width:500px) {
+    
+    .bottom_red{
+        display: none;
+    }
+    
+    }
